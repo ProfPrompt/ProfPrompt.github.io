@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @ProfPrompt
-- 👀 I’m interested in AI and machiene leaning -- currently playing around with GPT-3 natural language model
-- 🌱 I’m currently learning python and flask for web app development
+- 👀 I’m interested in AI and machiene learning -- playing around with GPT and LLAMA models.
 - 💞️ I’m looking to collaborate on projects involving AI and language education.
 - 📫 How to reach me: wattsmart@gmail.com
 
