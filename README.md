@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @agw84
+- 👋 Hi, I’m @ProfPrompt
 - 👀 I’m interested in AI and machiene leaning -- currently playing around with GPT-3 natural language model
 - 🌱 I’m currently learning python and flask for web app development
 - 💞️ I’m looking to collaborate on projects involving AI and language education.
