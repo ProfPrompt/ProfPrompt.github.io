@@ -1,106 +1,98 @@
-/* Updated styles for improved visual appeal */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Alex Prompter - Portfolio</title>
+</head>
+<body>
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
-}
+    <header>
+        <div class="container">
+            <h1>Alex Prompter</h1>
+            <p>Prompt Engineer</p>
+        </div>
+    </header>
 
-header {
-    background-color: #007BFF;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
+    <nav>
+        <ul class="container">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-nav {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-}
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Alex Prompter, a passionate prompt engineer with a strong background in natural language processing and machine learning. I hold a degree in Computer Science and have been exploring the world of prompt-based models to create innovative solutions. My journey involves a blend of academic pursuits and real-world applications.</p>
+        </div>
+    </section>
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px 0;
-}
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
 
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
+            <div class="project">
+                <h3>ChatBot Companion</h3>
+                <p>A conversational AI ChatBot designed to provide companionship and assistance. Implemented using GPT-3, it can engage in natural and meaningful conversations with users, offering support and information.</p>
+                <p><strong>Technologies:</strong> OpenAI GPT-3, Python, Flask</p>
+            </div>
 
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
+            <div class="project">
+                <h3>CodePrompter</h3>
+                <p>An intelligent code prompter that assists developers in writing code snippets more efficiently. Trained on a dataset of various programming languages, it suggests code completions based on the context and user input.</p>
+                <p><strong>Technologies:</strong> Transformer Models, TensorFlow, Python</p>
+            </div>
 
-section {
-    background-color: #fff;
-    margin: 40px 0;
-    padding: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+            <div class="project">
+                <h3>Smart Email Assistant</h3>
+                <p>An email assistant using natural language processing to categorize and prioritize emails. It helps users manage their inbox more effectively by identifying important emails and providing summaries.</p>
+                <p><strong>Technologies:</strong> NLP, Python, Email APIs</p>
+            </div>
 
-.project {
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    transition: transform 0.3s ease-in-out;
-}
+            <div class="project">
+                <h3>Chat Analytics Dashboard</h3>
+                <p>A web-based dashboard that analyzes chat interactions. It provides insights into user sentiments, frequently asked questions, and other metrics to help businesses improve their customer support.</p>
+                <p><strong>Technologies:</strong> React, Chart.js, Node.js, MongoDB</p>
+            </div>
 
-.project:hover {
-    transform: scale(1.05);
-}
+            <!-- Add more projects as needed -->
 
-.project h3 {
-    color: #007BFF;
-}
+        </div>
+    </section>
 
-.project p {
-    color: #555;
-}
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Natural Language Processing (NLP)</li>
+                <li>Machine Learning</li>
+                <li>Python</li>
+                <li>TensorFlow</li>
+                <li>Flask</li>
+                <li>Web Development</li>
+                <li>Problem Solving</li>
+            </ul>
+        </div>
+    </section>
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you're interested in collaborating or have any inquiries, feel free to reach out to me!</p>
+            <p>Email: alex.prompter@example.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/alex-prompter/" target="_blank">linkedin.com/in/alex-prompter</a></p>
+        </div>
+    </section>
 
-ul li {
-    display: inline-block;
-    margin-right: 10px;
-    background-color: #007BFF;
-    color: #fff;
-    padding: 8px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Alex Prompter | Prompt Engineer</p>
+        </div>
+    </footer>
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-
-/* Responsive design adjustments */
-@media only screen and (max-width: 600px) {
-    nav {
-        text-align: center;
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav li {
-        margin: 10px 0;
-    }
-}
+</body>
+</html>
