@@ -21,23 +21,30 @@
         }
 
         header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
             background-color: #4CAF50; /* Green */
             color: #fff;
-            text-align: center;
-            padding: 20px 0;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
         }
 
         nav {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 5px 0;
+            text-align: right;
         }
 
         nav ul {
             list-style-type: none;
             margin: 0;
-            padding: 10px 0;
+            padding: 0;
         }
 
         nav li {
@@ -57,8 +64,8 @@
         }
 
         section {
+            margin: 80px 20px 20px; /* Adjusted margin to account for the fixed header */
             background-color: #fff;
-            margin: 20px 60px; /* Add margin only to the sides */
             padding: 30px;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
@@ -66,7 +73,7 @@
         }
 
         .project {
-            margin-bottom: 30px;
+            margin-bottom: 20px; /* Adjusted margin */
             padding: 20px;
             background-color: #f0f8ff; /* AliceBlue */
             border-radius: 8px;
@@ -128,30 +135,29 @@
 <body>
 
     <header>
-        <div class="container">
+        <div>
             <h1>Andrew Watts</h1>
-            <h3>Prompt Engineer</h3>
+            <p>Prompt Engineer</p>
         </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul class="container">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
     <section id="about">
-        <div class="container">
+        <div>
             <h2>About Me</h2>
             <p>Hi, I'm Andrew Watts, a prompt engineer specializing in creating prompts tailored for educators and students. My expertise includes developing lesson plan generators, word search generators, crossword puzzle generators, historical character chatbots, and more. I am dedicated to enhancing the learning experience through innovative and engaging prompt-based solutions.</p>
         </div>
     </section>
 
     <section id="projects">
-        <div class="container">
+        <div>
             <h2>Projects</h2>
 
             <div class="project">
@@ -188,7 +194,7 @@
     </section>
 
     <section id="skills">
-        <div class="container">
+        <div>
             <h2>Skills</h2>
             <ul>
                 <li>Natural Language Processing (NLP)</li>
@@ -204,7 +210,7 @@
     </section>
 
     <section id="contact">
-        <div class="container">
+        <div>
             <h2>Contact</h2>
             <p>If you're interested in my work or have any inquiries, feel free to reach out to me!</p>
             <p>Email: andrew.watts@example.com</p>
