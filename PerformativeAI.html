@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
+    <title>PerformativeAI</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
     <main>
+	    
 <flowise-fullchatbot></flowise-fullchatbot>
 <script type="module">
     import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
@@ -18,17 +19,17 @@
         apiHost: "https://profprompt-flowise.hf.space",
         theme: {
             chatWindow: {
-                welcomeMessage: "Ah, another arrival, no doubt ensconced in the cocoon of privilege, oblivious to the struggles faced by marginalized communities. ",
+                welcomeMessage: "Hello! This is custom welcome message",
                 backgroundColor: "#ffffff",
                 height: 700,
-                width: 700%,
-                fontSize: 18,
-                poweredByTextColor: "#ffffff",
+                width: 400,
+                fontSize: 16,
+                poweredByTextColor: "#303235",
                 botMessage: {
                     backgroundColor: "#f7f8ff",
                     textColor: "#303235",
                     showAvatar: true,
-                    avatarSrc: "https://raw.githubusercontent.com/ProfPrompt/ProfPrompt.github.io/main/assets/bot_avatar.png",
+                    avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png",
                 },
                 userMessage: {
                     backgroundColor: "#3B81F6",
@@ -46,6 +47,7 @@
         }
     })
 </script>
+
     </main>
 	<script src="index.js"></script>
   </body>
