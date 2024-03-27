@@ -10,7 +10,14 @@
   </head>
   <body>
     <main>
-        <h1>Welcome to My Website</h1>  
+        <flowise-fullchatbot></flowise-fullchatbot>
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.initFull({
+        chatflowid: "8d4ca760-a8c8-4c27-928c-f77bb0dde4c9",
+        apiHost: "https://profprompt-flowise.hf.space",
+    })
+</script>
     </main>
 	<script src="index.js"></script>
   </body>
